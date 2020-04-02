@@ -1,2 +1,2 @@
 # classwork
-Code-Along #1 TechHire SG
+Code Alongs from Software Guild
