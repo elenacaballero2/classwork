@@ -38,6 +38,21 @@ If (kidsWhoWantToSwim % 2 === 0){
 
 
 
+
+if(kidsWhoWantToSwim < 0 || kidsWhoWantDoArchery < 0){
+  totalSwimmers = 0;
+  totalArchers = 0;
+  console.log("How on earth is it possible to have a negative human?")
+}
+else if (kidsWhoWantToSwim % 2 === 0){
+  totalSwimmers = kidsWhoWantToSwim;
+  totalArchers = kidsWhoWantDoArchery;
+}
+else if(kidsWhoWantToSwim % 2 === 1){
+  totalArchers = kidsWhoWantToSwim + kidsWhoWantDoArchery;
+  totalSwimmers = 0;
+}
+
 // When you're finished, save the changes and open practice/02-if-statements/index.html with your browser. (The html file is is the same subfolder as this file, and it already includes code to reference this file.)
 // Open the JavaScript console in your browser's developer tools.
 // Confirm there are no errors.
