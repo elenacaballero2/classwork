@@ -1,0 +1,45 @@
+#diceRoll
+{
+    width: auto;
+    height: fit-content;
+    background-color: #D1D7FF;
+    padding: 40px 50px;
+    margin: 0 auto;
+}
+
+#title
+{
+    justify-content: center;
+}
+
+/*#button
+{
+    margin:20px; look how to directly center it
+    padding: 10px;
+    border-radius: 10px;
+}*/
+#button {
+	margin: 25px;
+	font-weight: bold; 
+	margin: 0 auto#;
+}
+.container #diceRoll {
+	border: 5px solid black;
+	width: 300px;
+}
+
+.dice1, .dice2{
+	margin: 0 auto;
+
+}
+
+/*
+.container #button{
+	background-color: pink;
+}
+*/
+.container
+{
+    display: grid;
+    justify-content: center;
+}
